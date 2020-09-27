@@ -1,0 +1,41 @@
+<!doctype html>
+<html>
+<head>
+    <title>Message in a Bottle</title>
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <section class="indexContain">
+    <div class="col-sm-6">
+
+
+      <section class="jumbotron text-center">
+        <h1>Message in a Bottle</h1>
+
+        <img src="https://api.time.com/wp-content/uploads/2019/07/message-in-bottle.jpg" alt="msgInBottle">
+
+        <p> Login or Signup:</p>
+
+          <a href="/login" class="btn btn-default"><span class="fa fa-user"></span>Login</a>
+          <a href="/signup" class="btn btn-default"><span class="fa fa-user"></span>Signup</a>
+
+      </section>
+    </div>
+
+    <div class="col-sm-6">
+      <section>
+
+      <h2>Add a Message</h2>
+
+      <form action="/orders" method="post">
+        <input type="text" placeholder="Name" name="name" >
+        <input type="text" placeholder="Secret Message <3" name="order" >
+        <button type="submit">Submit</button>
+      </form>
+    </section>
+  </div>
+  </section>
+</body>
+</html>

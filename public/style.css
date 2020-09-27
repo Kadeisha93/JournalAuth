@@ -1,0 +1,26 @@
+*{
+  margin:0;
+  padding:0;
+  background-color: #efefef;
+}
+
+body{
+  padding-top:80px;
+  word-wrap:break-word;
+}
+img{
+  height: 200px;
+}
+
+.flex{
+  display: flex;
+}
+.ordered, .completed{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 50%;
+}
+.orderId{
+  display: none;
+}
